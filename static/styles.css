@@ -1,0 +1,66 @@
+body {
+      background-color: #0F0F0F;
+      color: #00FF00;
+}
+
+.chat-box {
+  background-color: #000000;
+  height: 550px;
+  width: 730px;
+  overflow-y: scroll;
+  margin: 0 auto 12px auto;
+  padding: 10px;
+  border: 1px solid #333333;
+  /*scrollbar-width: none; !* For Firefox *!*/
+  /*-ms-overflow-style: none; !* For Internet Explorer and Edge *!*/
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #222222;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #555555;
+}
+
+/*.chat-box::-webkit-scrollbar-thumb {*/
+/*   background-color: black;*/
+/*}*/
+
+/*.chat-box::-webkit-scrollbar {*/
+/*   display: none; !* For Chrome, Safari, and Opera *!*/
+/*}*/
+
+.message-from-user {
+  background-color: #000000;
+  color: #20C20E;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  /*border-radius: 10px;*/
+  max-width: 80%;
+  float: left;
+}
+
+.message-from-api {
+  background-color: #000000;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  /*border-radius: 10px;*/
+  max-width: 80%;
+  float: right;
+}
+
+#message-input {
+  width: 620px;
+  height: 100px;
+  white-space: pre-wrap;
+}
+
+.page-title {
+  color: #EEEEEE;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
